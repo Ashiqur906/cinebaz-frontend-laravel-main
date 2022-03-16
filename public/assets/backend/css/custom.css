@@ -1,0 +1,33 @@
+.form-control::placeholder {
+    color: #383838 !important;
+}
+
+
+#load_file {
+    display: inline-flex;
+}
+#load_file .drop_img {
+display: block;
+max-width: 175px;
+padding: 0 10px;
+}
+#load_featured .drop_img {
+display: block;
+}
+.drop_img button {
+width: 100%;
+margin-top: 5px;
+}
+.drop_img button {
+width: 100%;
+margin: 5px 0 15px;
+}
+
+.iq-card-footer {
+    padding: 30px 10px;
+}
+
+.drop_img.multi {
+    width: 150px;
+    display: inline-block;
+}

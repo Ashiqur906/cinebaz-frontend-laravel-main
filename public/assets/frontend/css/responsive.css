@@ -1,0 +1,694 @@
+@media (min-width:1300px) {
+    .container {
+        max-width: 1170px
+    }
+}
+
+@media (min-width:1499px) {
+    .container {
+        max-width: 1266px
+    }
+    #home-slider h1.slider-text {
+        margin: 30px 0
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1366px) {
+    .search:focus,
+    .search:hover {
+        width: 220px!important
+    }
+}
+
+@media (min-width:992px) {
+    .three-column {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 5px;
+        -moz-column-gap: 5px;
+        column-gap: 5px
+    }
+    .s-icon {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 7px;
+        color: var(--iq-white);
+        font-size: 15px;
+        background: rgb(41, 41, 41, .76);
+        transition: all .4s ease
+    }
+    #mobile-profile {
+        visibility: hidden
+    }
+}
+
+@media (min-width:1200px) {
+    li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active:hover .block-images {
+        transform: scale3d(1.1, 1.1, 1) translate3d(11%, 0, 0) perspective(500px)
+    }
+    .watch-title {
+        position: absolute;
+        top: 50%;
+        left: -20%;
+        transform: translateY(-50%);
+        font-size: 17px;
+        letter-spacing: 3.5px;
+        font-weight: 600;
+        color: var(--iq-white)
+    }
+    .watch-title:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -36%;
+        transform: translateY(-50%);
+        background: var(--iq-white);
+        width: 52px;
+        height: 2px
+    }
+    .col-1-5 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%
+    }
+}
+
+@media(max-width:1199px) {
+    .category-slide-button {
+        margin-right: 80px !important;
+    }
+    li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active:hover .block-images {
+        transform: scale3d(1.3, 1.3, 1) translate3d(-12%, 0, 0) perspective(500px)
+    }
+    .video-container {
+        height: 100%
+    }
+    #home-slider .slick-bg {
+        max-height: 64vh !important;
+    }
+    #home-slider .btn-link {
+        padding: 5px 10px !important;
+        font-size: 14px;
+    }
+    #home-slider .btn-hover {
+        padding: 5px 10px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:1401px) and (max-width:2000px) {
+    .cardPremium {
+        width: 55%
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .cardPremium {
+        width: 78%
+    }
+}
+
+@media(max-width:991px) {
+    .category-slide-button {
+        margin-right: 85px !important;
+    }
+    .block-description .movie-content li,
+    li.slide-item .block-description .movie-time span,
+    li.slide-item .block-description .parallax-ratting span,
+    li.slide-item .block-description .ratting-start {
+        font-size: 10px
+    }
+    #home-slider .slick-bg {
+        padding: 20px 0;
+    }
+    .r-mb-23 {
+        margin-bottom: 15px
+    }
+    header .navbar-light .navbar-brand img.logo {
+        width: 100px
+    }
+    .navbar-collapse {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-bottom: 15px;
+        width: 260px;
+        height: 100vh;
+        background: var(--iq-bg1);
+        padding-top: 40px;
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2)
+    }
+    .vertical_s {
+        position: static
+    }
+    #top-ten-slider-nav {
+        width: 100%;
+        height: 100%
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left .3s ease;
+        -o-transition: left .3s ease;
+        -moz-transition: left .3s ease;
+        transition: left .3s ease;
+        left: -100%
+    }
+    .navbar-collapse.show {
+        left: -15px;
+        -webkit-transition: left .3s ease-in;
+        -o-transition: left .3s ease-in;
+        -moz-transition: left .3s ease-in;
+        transition: left .3s ease-in;
+        z-index: 999999999999999;
+    }
+    header .navbar ul li.menu-item a {
+        line-height: 10px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 10px 30px;
+        color: var(--iq-white)
+    }
+    .mobile-more-menu {
+        display: block
+    }
+    .menu-right {
+        display: none
+    }
+    .navbar-brand {
+        padding: 0;
+        margin-right: 0
+    }
+    .more-menu .iq-sub-dropdown {
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 60px
+    }
+    .mobile-more-menu .iq-user-dropdown img {
+        width: 40px
+    }
+    .iq-search-bar .search-input {
+        background: var(--iq-body-bg);
+        color: var(--iq-body-text);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .75)
+    }
+    .navbar-right li {
+        position: static!important
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+    .main-header {
+        padding: 10px 0
+    }
+    .vertical_s {
+        display: none
+    }
+    .r-mt-15 {
+        margin-top: 15px
+    }
+    .block-space {
+        padding: 25px 0
+    }
+    .banner-wrapper .trending-info .trending-dec {
+        width: 100%
+    }
+    .banner-caption,
+    .overlay-s-name {
+        left: 30px
+    }
+    .scroll-gene {
+        width: 100%;
+        height: 600px
+    }
+    .genres-box .dropdown-menu {
+        height: 250px;
+        overflow-y: auto
+    }
+    .trailor-video {
+        display: none
+    }
+    .topten-title-sm {
+        display: block
+    }
+    .topten-title {
+        display: none
+    }
+    .device-margin {
+        margin-top: 15px
+    }
+    #home-slider h1.slider-text {
+        font-size: 35px
+    }
+    header .navbar ul li {
+        display: block
+    }
+    .iq-main-slider {
+        padding-top: 0!important
+    }
+    .m-profile {
+        padding-top: 100px;
+        padding-bottom: 60px
+    }
+    .trending-info .trending-dec {
+        width: 52%
+    }
+}
+
+@media(max-width:768px) {
+    /* #player { */
+    /* display: block; */
+    /* width: 97%;
+        height: 146vh;
+        transform: rotate( 90deg);
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate( 90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg); */
+    /* margin: 90px 25px; */
+    /* } */
+    li.slide-item .block-images::before {
+        content: none
+    }
+    li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active:hover .block-images,
+    li.slide-item.slick-active+li.slide-item.slick-active+li.slide-item.slick-active:hover .block-images,
+    li.slide-item.slick-current:hover .block-images,
+    li.slide-item:hover .block-images {
+        transform: none
+    }
+    .type {
+        padding: 9px 10px;
+        font-size: 13px
+    }
+}
+
+@media (max-width:767px) {
+    .exeptionlogin {
+        width: 100%;
+    }
+    .full-head {
+        padding: 5px;
+    }
+    .app-store-caption .app-heading {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .library-full_card {
+        display: block;
+    }
+    .sign-user_card img {
+        max-width: 70%;
+    }
+    .edit-icon {
+        display: none;
+    }
+    #iq-upcoming-movie {
+        padding-top: 0px !important;
+    }
+    #iq-favorites {
+        padding-top: 0px !important;
+    }
+    .details-play-group-button {
+        padding-top: 40px !important;
+    }
+    .share-box {
+        bottom: 23px !important;
+    }
+    .footer-social-icon-left img {
+        margin: auto;
+    }
+    .footer-social-icon-right {
+        text-align: center !important;
+    }
+    #home-slider .slick-bg {
+        max-height: 31vh !important;
+    }
+    .category-slide-button {
+        margin-right: 50px !important;
+    }
+    .banner-caption .share-icons.music-play-lists li span {
+        line-height: 22px!important
+    }
+    #player .container[data-container] {
+        height: 45%!important
+    }
+    .level_selector[data-level-selector] button {
+        font-size: 6px!important
+    }
+    .media-control[data-media-control] .media-control-layer[data-controls] .playback_rate[data-playback-rate-select] button.media-control-button.media-control-icon {
+        font-size: 9px!important
+    }
+    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration],
+    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position] {
+        font-size: 8px!important
+    }
+    .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button {
+        margin: 0 2px!important
+    }
+    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position] {
+        margin: 0 4px 0 3px!important
+    }
+    .parallax-window {
+        padding: 60px 0
+    }
+    .banner-wrapper {
+        padding: 100px 0;
+        height: 185px
+    }
+    .movie-content li {
+        padding-right: 5px;
+        font-size: 10px
+    }
+    .share-icons.music-play-lists li {
+        margin-right: 0;
+        width: 30px;
+        height: 30px;
+        margin-left: 0
+    }
+    .play-button::before {
+        width: 30px!important;
+        height: 30px!important
+    }
+    .w-name {
+        font-size: 15px;
+        margin-left: 54px;
+        display: none
+    }
+    .banner-caption img {
+        display: none
+    }
+    .g-border img {
+        height: 160px!important;
+        display: none
+    }
+    .trending-info .trending-text {
+        font-size: 20px!important
+    }
+    .trending-info .text-detail .badge {
+        font-size: 10px;
+        padding: 9px!important
+    }
+    .trending-info .text-detail {
+        font-size: 11px;
+        margin-bottom: 15px!important
+    }
+    .text-detail .trending-year:before {
+        display: none
+    }
+    .text-detail .trending-year {
+        padding-left: 12px;
+        font-size: 11px!important
+    }
+    span.ml-3 {
+        margin-left: 0!important
+    }
+    .trending-info p {
+        font-size: 13px!important;
+        text-align: justify;
+        font-weight: 300
+    }
+    .list-inline li {
+        padding-right: 0!important;
+        font-size: 20px!important;
+        display: none
+    }
+    .block-space p {
+        font-size: 10px!important
+    }
+    .exeptionlogin {
+        top: 115px !important;
+    }
+    .exeptionlogin p {
+        letter-spacing: 0!important;
+        font-size: 10px;
+        padding: 5px 0!important
+    }
+    .hover-buttons .btn {
+        font-size: 8px
+    }
+    .main-content {
+        padding-top: 15px !important;
+        position: relative
+    }
+    .banner-caption {
+        bottom: 10px;
+        position: absolute;
+        top: 234px
+    }
+    .trending-info .trending-text {
+        font-size: 25px!important;
+        line-height: 1.3
+    }
+    .list-movie-content {
+        margin-top: 0
+    }
+    .music-play-lists {
+        margin-left: 50px!important;
+        margin-top: -38px!important
+    }
+    .share-icons.music-play-lists li span {
+        width: 24px!important;
+        height: 24px!important
+    }
+    .share-icons.music-play-lists li span i {
+        font-size: 12px!important
+    }
+    .trending-info {
+        padding: 60px 0!important
+    }
+    .movie-detail .movie-content li:before {
+        display: none
+    }
+    .movie-content li:before {
+        display: none
+    }
+    .movie-detail .trending-info {
+        border: 0 solid transparent!important;
+        padding: 10px 0!important;
+        margin-top: 60px!important
+    }
+    #embedBox {
+        height: 220px!important
+    }
+    .trending-content {
+        padding: 0
+    }
+    .banner-wrapper .series,
+    .banner-wrapper .trending-info .text-detail {
+        justify-content: flex-start
+    }
+    .trending-info .trending-dec {
+        width: 100%
+    }
+    .banner-wrapper .trending-info .trending-dec {
+        text-align: left
+    }
+    .trending-pills {
+        flex-direction: column
+    }
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    #home-slider h1.slider-text {
+        line-height: 34px;
+        margin: 0;
+        font-size: 30px !important;
+    }
+    .trending-info .block-social.social1 {
+        margin-left: 0!important
+    }
+    .r-mt-20 {
+        margin-top: 20px
+    }
+    .p-btns {
+        flex-direction: column
+    }
+    .main-title {
+        font-size: 1em
+    }
+    .sign-info {
+        flex-direction: column
+    }
+    .sign-info .btn {
+        margin-bottom: 15px
+    }
+    .banner-caption,
+    .overlay-s-name {
+        left: 15px
+    }
+    .episode-name {
+        flex-direction: column;
+        align-items: flex-start!important
+    }
+    .text-detail.episode-name .trending-year {
+        padding-left: 0;
+        font-size: 24px
+    }
+    .episodes-slider1 .owl-nav button.owl-next,
+    .episodes-slider1 .owl-nav button.owl-prev {
+        width: 30px;
+        height: 30px;
+        font-size: 27px
+    }
+    #top-ten-slider .NextArrow,
+    #top-ten-slider .PreArrow {
+        width: 30px;
+        height: 30px;
+        font-size: 23px
+    }
+    .episode-name .trending-year:before {
+        content: none
+    }
+    .r-mb-15 {
+        margin-bottom: 15px
+    }
+    header#main-header {
+        position: static
+    }
+    .shows-img .movie-time {
+        display: none!important
+    }
+    .genres-box {
+        top: 10px
+    }
+    .shows-content {
+        bottom: 14px
+    }
+    #home-slider p {
+        width: 100%;
+        display: none
+    }
+    .slick-bg:before {
+        background: linear-gradient(-360deg, #000 0, #141414 0%, rgba(83, 100, 141, 0) 100%)
+    }
+    .add-banner-logo-text span {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .add-logo img {
+        margin-right: 9px;
+    }
+    .add-banner-logo-text {
+        padding: 6px;
+    }
+    .m-profile {
+        padding-top: 40px;
+        padding-bottom: 50px
+    }
+    .m-profile .sign-user_card {
+        padding: 15px
+    }
+    .lang-dropdown {
+        margin-left: 0;
+        margin-top: 1.2rem
+    }
+    .manage-gen .select2-container {
+        width: 100%!important
+    }
+    .manage-gen .select2-search--dropdown .select2-search__field {
+        width: 98%
+    }
+    .trending-data1 {
+        height: 688.766px
+    }
+    .play-button i {
+        font-size: 16px
+    }
+    .play-button:after,
+    .play-button:before {
+        width: 40px;
+        height: 40px
+    }
+    .manage-p {
+        height: 100%
+    }
+    .overlay-wrapper:before {
+        background-image: linear-gradient(to bottom, rgb(51 51 51 / 0), rgb(0 0 0 / 0) 40%, var(--iq-black) 100%)
+    }
+    #trending-slider-nav .slick-arrow,
+    #trending-slider-nav .slick-arrow:hover,
+    .favorites-slider .slick-arrow,
+    .favorites-slider .slick-arrow:hover {
+        background: 0 0
+    }
+    #trending-slider-nav .slick-prev,
+    .favorites-slider .slick-prev {
+        right: 37px
+    }
+}
+
+@media (min-width:576px) {
+    .iq-search-bar a.search-toggle {
+        display: none
+    }
+}
+
+@media (max-width:479px) {
+    header .navbar ul li.list-inline-item a {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}
+
+@media (max-width:991px) {
+    #mobile-profile {
+        visibility: visible
+    }
+    a.mobile-nav-profile-img {
+        display: inline-flex
+    }
+    #mobile-nav-item {
+        display: block
+    }
+}
+
+@media (min-width:992px) {
+    #mobile-profile {
+        visibility: hidden
+    }
+    a.mobile-nav-profile-img {
+        display: none
+    }
+    #mobile-nav-item {
+        display: none
+    }
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    header .navbar ul li.menu-item a {
+        font-size: 13px
+    }
+    header .navbar ul li {
+        margin-right: 10px
+    }
+    header .navbar ul.navbar-nav {
+        text-align: left
+    }
+    .navbar-right.menu-right li {
+        margin-right: 10px
+    }
+    .navbar-right.menu-right li a {
+        font-size: 17px
+    }
+    .menu-right li a span {
+        height: 12px;
+        width: 12px;
+        font-size: 8px
+    }
+    .nav-item span.dots {
+        height: 8px;
+        width: 8px;
+        top: 22px
+    }
+}
